@@ -1,0 +1,157 @@
+/* 🌸 Tema Ceria Ungu Muda by Hapsoh */
+
+/* Background dan body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #f7eaff, #f4e2ff);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(to right, #b481ff, #9d6bff);
+    padding: 14px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffdeff;
+    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+}
+
+/* Container utama */
+.container {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    box-shadow: 0 10px 25px rgba(157, 107, 255, 0.15);
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Judul */
+h1, h2, h3 {
+    text-align: center;
+    color: #6a0dad;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #9d6bff;
+    box-shadow: 0 0 8px rgba(157, 107, 255, 0.3);
+}
+
+/* Tombol */
+button {
+    background: linear-gradient(to right, #b481ff, #9d6bff);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #9d6bff, #8742ff);
+    transform: translateY(-2px);
+}
+
+/* Tombol batal */
+.batal-btn {
+    display: inline-block;
+    background: #ddd;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+.batal-btn:hover {
+    background: #bbb;
+}
+
+/* Notifikasi */
+#notif {
+    background: linear-gradient(to right, #b481ff, #9d6bff);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 8px rgba(157,107,255,0.3);
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: linear-gradient(to right, #b481ff, #9d6bff);
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+td {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: #faf5ff;
+}
+
+tr:hover {
+    background: #f3e8ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 25px 0 10px;
+    color: #6a0dad;
+    font-size: 14px;
+    opacity: 0.9;
+}
